@@ -31,8 +31,8 @@ container. See: [Dockerized environments](#dockerized-environments) section._
 
 ## Dockerized environments
 
-- [Pinima LFS][pinima-lfs]: It's just an LFS environment
-- [Docker LFS Build][docker-lfs-build]: Is an LFS system builder
+- [Pinima LFS][pinima-lfs]: It's just an LFS environment (not a builder)
+- [Docker LFS Build][docker-lfs-build]: Linux From Scratch build environment
 
 
 
