@@ -6,6 +6,7 @@ ia_log "6.2" "Preparing virtual kernel file systems"
 echo
 
 # creating fs directories
+rm -rf $LFS/{dev,proc,sys,run}
 mkdir -pv $LFS/{dev,proc,sys,run}
 
 # creating initial device nodes

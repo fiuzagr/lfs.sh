@@ -11,12 +11,13 @@ syslinuxUrl="https://www.kernel.org/pub/linux/utils/boot/syslinux"
 syslinuxPackage="syslinux-6.03.tar.xz"
 syslinuxShasum="26d3986d2bea109d5dc0e4f8c4822a459276cf021125e8c9f23c3cca5d8c850e"
 
-cd $LFS/sources
+cd "$LFS/sources"
 
 ia_log "Getting all source packages"
 echo
 wget $wgetParams "$lfsUrl/wget-list"
 wget $wgetParams --input-file=wget-list
+
 wget $wgetParams "$syslinuxUrl/$syslinuxPackage"
 
 
